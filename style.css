@@ -1,0 +1,66 @@
+html {
+  font-size: 10px;
+  background-size: cover;
+}
+
+body,html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: url(./images/concert-background.jpg) bottom center;
+  background-size: cover;
+}
+
+
+
+
+.keys {
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.key {
+  border-radius: 0 0 .75rem .75rem;
+  font-size: 1.5rem;
+  transition: all .07s ease;
+  width: 10rem;
+  height: 35vh;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 0 0 .5rem black;
+  border: .3rem solid black;
+  color: black;
+  background: white;
+}
+
+.ebony-key {
+  width: 5rem;
+  height: 32vh;
+  margin:  -2.5rem -2rem 0; 
+  color: white;
+  background: black;
+  z-index: 1;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: black;
+}
